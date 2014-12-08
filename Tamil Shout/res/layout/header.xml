@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tab_bg"
+    android:padding="6dp" >
+
+    <LinearLayout
+        android:id="@+id/leftTopHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnTopLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_back"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Home"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/top_header"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/rightTopHeader"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnTopRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_filter"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</RelativeLayout>

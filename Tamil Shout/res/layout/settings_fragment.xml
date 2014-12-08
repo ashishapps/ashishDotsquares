@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.tamilshout.MainActivity" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nav_bar"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="All Notifications"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/outerToggleBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/toggle_selector"
+            android:textOff=""
+            android:textOn="" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/transparent" >
+        </ListView>
+    </LinearLayout>
+
+    <com.tamilshout.utils.Banner
+        android:id="@+id/banner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+    </com.tamilshout.utils.Banner>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/bg_white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.tamilshout.MainActivity" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nav_bar"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <EditText
+            android:imeOptions="actionDone"
+            android:id="@+id/edt_search"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:paddingLeft="10dp"
+            android:background="@drawable/search_box"
+            android:drawableRight="@drawable/icon_search"
+            android:hint="@string/search_event" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ListView
+            android:scrollbars="none"
+            android:divider="@color/transparent"
+            android:cacheColorHint="#00000000"
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+   <com.tamilshout.utils.Banner
+        android:id="@+id/banner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+    </com.tamilshout.utils.Banner>
+</LinearLayout>

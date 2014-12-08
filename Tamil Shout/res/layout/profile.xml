@@ -1,0 +1,254 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/bg_white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.tamilshout.MainActivity" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="First Name"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/edt_fname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@color/transparent"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionNext"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceSmall" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Last Name"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/edt_lnam"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@color/transparent"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionNext"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceSmall" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Email"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/edt_email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@color/transparent"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionNext"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceSmall" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mobile Number"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/edt_mobile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@color/transparent"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionNext"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceSmall" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Date of Birth"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/edt_dob"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@color/transparent"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:text="zxcxzczxcxczxczxcxzc"
+                    android:textAppearance="?android:attr/textAppearanceSmall" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Gender"
+                    android:textColor="@color/black" />
+
+                <RadioGroup
+                    android:id="@+id/radio_gender"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                   
+                    android:layout_weight="2"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radio_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:tag="M"
+                        android:enabled="false"
+                        android:text="Male"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                          android:enabled="false"
+                        android:id="@+id/radio_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="F"
+                        android:text="Female"
+                        android:textColor="@color/black" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="right"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_editProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_common_bg"
+                    android:text="EDIT PROFILE"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.tamilshout.utils.Banner
+        android:id="@+id/banner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+    </com.tamilshout.utils.Banner>
+
+</LinearLayout>

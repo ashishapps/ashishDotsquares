@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/common_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <EditText
+            android:id="@+id/passwordEdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="enter password"
+            android:background="@drawable/text_box"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp" >
+
+        <Button
+            android:id="@+id/dialogButtonOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_bg"
+            android:padding="5dp"
+            android:text=" Ok "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/btn_color"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dialogButtonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_bg"
+            android:padding="5dp"
+            android:text=" Cancel "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/btn_color"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

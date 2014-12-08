@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.tamilshout.MainActivity" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nav_bar"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/edt_select_cat"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dropdown"
+            android:focusable="false"
+            android:hint="@string/select_cat"
+            android:imeOptions="actionDone"
+            android:paddingLeft="7dp"
+            android:paddingRight="35dp"
+            android:singleLine="true"
+            android:text="" >
+        </EditText>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/distanceBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/edt_select_cat"
+            android:background="@drawable/common_bg_white_corner"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:text="Distance"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/blue_text" >
+        </Button>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ListView
+            android:scrollbars="none"
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/transparent" >
+        </ListView>
+    </LinearLayout>
+
+    <com.tamilshout.utils.Banner
+        android:id="@+id/banner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+    </com.tamilshout.utils.Banner>
+
+</LinearLayout>

@@ -1,0 +1,1751 @@
+<html>
+<head>
+    <style>
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+@font-face
+	{font-family:"Lucida Console";
+	panose-1:2 11 6 9 4 5 4 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482993 6144 0 0 31 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+h1
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:150%;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	tab-stops:21.3pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;
+	mso-ansi-language:EN-GB;
+	mso-bidi-font-weight:normal;}
+h2
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	tab-stops:21.3pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-bidi-font-weight:normal;}
+h3
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:center;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	mso-hyphenate:none;
+	tab-stops:-1.0in -.5in 0in .5in 1.0in 1.5in;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.15pt;
+	mso-ansi-language:EN-GB;
+	mso-bidi-font-weight:normal;}
+h4
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	border:none;
+	mso-border-top-alt:solid windowtext .75pt;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0in;
+	mso-padding-alt:1.0pt 0in 1.0pt 0in;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	font-weight:normal;}
+h5
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:155.95pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-155.95pt;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:5;
+	tab-stops:155.95pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-ansi-language:EN-GB;}
+h6
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:2.9pt;
+	margin-left:0in;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:6;
+	tab-stops:.5in 2.0in 3.5in 4.25in;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:9.0pt;
+	font-family:"Times New Roman","serif";
+	mso-ansi-language:EN-GB;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:7;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	font-weight:bold;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	mso-pagination:none;
+	tab-stops:.5in right 414.8pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:24.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:48.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:84.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:96.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-unhide:no;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-unhide:no;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+span.MsoPageNumber
+	{mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:10.0pt;}
+p.MsoListNumber, li.MsoListNumber, div.MsoListNumber
+	{mso-style-unhide:no;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.25in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.25in;
+	mso-pagination:none;
+	tab-stops:.25in;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoListNumber3, li.MsoListNumber3, div.MsoListNumber3
+	{mso-style-unhide:no;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:11.35pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-11.35pt;
+	mso-pagination:none;
+	tab-stops:.25in;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-unhide:no;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	border:none;
+	mso-border-top-alt:solid windowtext .75pt;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0in;
+	mso-padding-alt:1.0pt 0in 1.0pt 0in;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	text-transform:uppercase;
+	mso-ansi-language:EN-GB;
+	mso-bidi-font-style:italic;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{mso-style-unhide:no;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.5in;
+	mso-pagination:none;
+	mso-hyphenate:none;
+	tab-stops:-.5in 0in;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.15pt;
+	mso-ansi-language:EN-GB;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	text-align:center;
+	mso-pagination:none;
+	mso-outline-level:2;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{mso-style-unhide:no;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:1.0in;
+	text-align:justify;
+	text-indent:-.5in;
+	mso-pagination:none;
+	tab-stops:.5in 1.0in 1.5in;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.15pt;
+	mso-ansi-language:EN-GB;}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{mso-style-unhide:no;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoBodyTextIndent2, li.MsoBodyTextIndent2, div.MsoBodyTextIndent2
+	{mso-style-unhide:no;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:1.0in;
+	text-align:justify;
+	text-indent:-.5in;
+	mso-pagination:none;
+	mso-hyphenate:none;
+	tab-stops:-1.0in -.5in 0in .5in 1.0in 1.5in;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.15pt;
+	mso-ansi-language:EN-GB;}
+p.MsoBodyTextIndent3, li.MsoBodyTextIndent3, div.MsoBodyTextIndent3
+	{mso-style-unhide:no;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:35.45pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+a:link, span.MsoHyperlink
+	{mso-style-unhide:no;
+	mso-style-parent:"";
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-unhide:no;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+strong
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-bidi-font-weight:normal;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.LegalNumbering, li.LegalNumbering, div.LegalNumbering
+	{mso-style-name:"Legal Numbering";
+	mso-style-unhide:no;
+	mso-style-parent:"List Number 3";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:22.7pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-22.7pt;
+	mso-pagination:none;
+	tab-stops:.25in 22.7pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.Blockquote, li.Blockquote, div.Blockquote
+	{mso-style-name:Blockquote;
+	mso-style-unhide:no;
+	margin-top:5.0pt;
+	margin-right:.25in;
+	margin-bottom:5.0pt;
+	margin-left:.25in;
+	mso-pagination:widow-orphan;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:Title;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:35.45pt;
+	text-align:justify;
+	text-indent:-35.45pt;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-list:l1 level1 lfo2;
+	tab-stops:list 35.45pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	font-weight:bold;}
+p.Style2, li.Style2, div.Style2
+	{mso-style-name:Style2;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:70.9pt;
+	text-align:justify;
+	text-indent:-35.45pt;
+	mso-pagination:none;
+	mso-list:l1 level3 lfo2;
+	tab-stops:list 70.9pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.Style3a, li.Style3a, div.Style3a
+	{mso-style-name:Style3a;
+	mso-style-unhide:no;
+	mso-style-parent:"Style3\.1\.1";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:106.3pt;
+	text-align:justify;
+	text-indent:-35.4pt;
+	mso-pagination:widow-orphan;
+	mso-list:l1 level6 lfo2;
+	tab-stops:list 106.3pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-bidi-font-weight:bold;}
+p.Style311, li.Style311, div.Style311
+	{mso-style-name:"Style3\.1\.1";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:106.3pt;
+	text-align:justify;
+	text-indent:-35.4pt;
+	mso-pagination:widow-orphan;
+	mso-list:l1 level5 lfo2;
+	tab-stops:list 106.3pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-bidi-font-weight:bold;}
+p.Style2n, li.Style2n, div.Style2n
+	{mso-style-name:Style2n;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"Body Text Indent 3";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:35.45pt;
+	text-align:justify;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.LeftLettered, li.LeftLettered, div.LeftLettered
+	{mso-style-name:LeftLettered;
+	mso-style-unhide:no;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:21.3pt;
+	text-align:justify;
+	text-indent:-21.3pt;
+	mso-pagination:widow-orphan;
+	mso-list:l0 level1 lfo1;
+	tab-stops:list 21.3pt left 106.3pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-bidi-font-weight:bold;}
+p.Style3n, li.Style3n, div.Style3n
+	{mso-style-name:Style3n;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:70.9pt;
+	text-align:justify;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.Style4, li.Style4, div.Style4
+	{mso-style-name:Style4;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:141.75pt;
+	text-align:justify;
+	text-indent:-35.45pt;
+	mso-pagination:none;
+	mso-list:l1 level7 lfo2;
+	tab-stops:list 141.75pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.Style, li.Style, div.Style
+	{mso-style-name:Style;
+	mso-style-unhide:no;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.5in;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Lucida Console";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.Style4n, li.Style4n, div.Style4n
+	{mso-style-name:Style4n;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:Style3n;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:106.35pt;
+	text-align:justify;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.Style2a, li.Style2a, div.Style2a
+	{mso-style-name:Style2a;
+	mso-style-unhide:no;
+	mso-style-parent:Style2n;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:70.9pt;
+	text-align:justify;
+	text-indent:-35.45pt;
+	mso-pagination:none;
+	mso-list:l1 level4 lfo2;
+	tab-stops:list 70.9pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.Style1notBold, li.Style1notBold, div.Style1notBold
+	{mso-style-name:Style1notBold;
+	mso-style-unhide:no;
+	mso-style-parent:Style1;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:35.45pt;
+	text-align:justify;
+	text-indent:-35.45pt;
+	mso-pagination:none;
+	mso-list:l1 level2 lfo2;
+	tab-stops:list 35.45pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-bidi-font-weight:bold;}
+p.Style4a, li.Style4a, div.Style4a
+	{mso-style-name:Style4a;
+	mso-style-unhide:no;
+	mso-style-parent:Style3a;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:141.75pt;
+	text-align:justify;
+	text-indent:-35.45pt;
+	mso-pagination:widow-orphan;
+	mso-list:l1 level8 lfo2;
+	tab-stops:list 141.75pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-bidi-font-weight:bold;}
+ /* Page Definitions */
+ @page
+	{mso-footnote-separator:url("normal_user_term&condition_files/header.htm") fs;
+	mso-footnote-continuation-separator:url("normal_user_term&condition_files/header.htm") fcs;
+	mso-endnote-separator:url("normal_user_term&condition_files/header.htm") es;
+	mso-endnote-continuation-separator:url("normal_user_term&condition_files/header.htm") ecs;}
+@page Section1
+	{size:595.4pt 841.65pt;
+	margin:70.9pt 70.9pt 70.9pt 70.9pt;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-footer:url("normal_user_term&condition_files/header.htm") f1;
+	mso-first-footer:url("normal_user_term&condition_files/header.htm") ff1;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:99689865;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-361496118 -624380750 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-style-link:Style3n;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-bidi-font-family:"Times New Roman";}
+@list l1
+	{mso-list-id:966277649;
+	mso-list-template-ids:101085320;}
+@list l1:level1
+	{mso-level-style-link:Style1;
+	mso-level-tab-stop:35.45pt;
+	mso-level-number-position:left;
+	margin-left:35.45pt;
+	text-indent:-35.45pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l1:level2
+	{mso-level-reset-level:level1;
+	mso-level-style-link:Style1notBold;
+	mso-level-tab-stop:35.45pt;
+	mso-level-number-position:left;
+	margin-left:35.45pt;
+	text-indent:-35.45pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l1:level3
+	{mso-level-reset-level:level2;
+	mso-level-style-link:Style2;
+	mso-level-text:"%1\.%3";
+	mso-level-tab-stop:70.9pt;
+	mso-level-number-position:left;
+	margin-left:70.9pt;
+	text-indent:-35.45pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l1:level4
+	{mso-level-number-format:alpha-lower;
+	mso-level-reset-level:level2;
+	mso-level-style-link:Style2a;
+	mso-level-text:"%4\)";
+	mso-level-tab-stop:70.9pt;
+	mso-level-number-position:left;
+	margin-left:70.9pt;
+	text-indent:-35.45pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l1:level5
+	{mso-level-reset-level:level4;
+	mso-level-style-link:"Style3\.1\.1";
+	mso-level-text:"%1\.%3\.%5";
+	mso-level-tab-stop:106.3pt;
+	mso-level-number-position:left;
+	margin-left:106.3pt;
+	text-indent:-35.4pt;}
+@list l1:level6
+	{mso-level-number-format:alpha-lower;
+	mso-level-reset-level:level4;
+	mso-level-style-link:Style3a;
+	mso-level-text:"%6\)";
+	mso-level-tab-stop:106.3pt;
+	mso-level-number-position:left;
+	margin-left:106.3pt;
+	text-indent:-35.4pt;}
+@list l1:level7
+	{mso-level-reset-level:level6;
+	mso-level-style-link:Style4;
+	mso-level-text:"%1\.%3\.%5\.%7";
+	mso-level-tab-stop:141.75pt;
+	mso-level-number-position:left;
+	margin-left:141.75pt;
+	text-indent:-35.45pt;}
+@list l1:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-reset-level:level6;
+	mso-level-style-link:Style4a;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:141.75pt;
+	mso-level-number-position:left;
+	margin-left:141.75pt;
+	text-indent:-35.45pt;}
+@list l1:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9\.";
+	mso-level-tab-stop:3.25in;
+	mso-level-number-position:left;
+	margin-left:3.0in;
+	text-indent:-1.0in;}
+@list l2
+	{mso-list-id:1250195604;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-914315600 67698711 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+
+</style>
+   
+</head>
+<body>
+    <div class="Section1">
+        <div style='mso-element: para-border-div; border-top: solid windowtext 1.0pt; border-left: none;
+            border-bottom: solid windowtext 1.0pt; border-right: none; mso-border-top-alt: solid windowtext .75pt;
+            mso-border-bottom-alt: solid windowtext .75pt; padding: 1.0pt 0in 1.0pt 0in'>
+            <p class="MsoBodyText">
+                <strong><span lang="EN-GB" style='mso-bidi-font-weight: bold'>terms AND CONDITIONS</span></strong></p>
+        </div>
+        <p class="MsoNormal">
+            <b style='mso-bidi-font-weight: normal'><span lang="EN-GB" style='color: black'>
+                <o:p>&nbsp;</o:p>
+            </span></b>
+        </p>
+        <p class="MsoNormal">
+            <b style='mso-bidi-font-weight: normal'><span lang="EN-GB">BACKGROUND:<o:p></o:p></span></b></p>
+        <p class="MsoNormal">
+            <span lang="EN-GB">
+                <o:p>&nbsp;</o:p>
+            </span>
+        </p>
+        <p class="MsoNormal">
+            <span lang="EN-GB">This agreement applies as between you, the User of this Website and
+                Tamil shout, the owner(s) of this Website.<span style='mso-spacerun: yes'> </span>
+                Your agreement to comply with and be bound by these terms and conditions is deemed
+                to occur upon your first use of the Website. If you do not agree to be bound by
+                these terms and conditions, you should stop using the Website immediately.</span></p>
+        <p class="MsoNormal">
+            <span lang="EN-GB" style='mso-bidi-font-family: Arial'>
+                <o:p>&nbsp;</o:p>
+            </span>
+        </p>
+        <p class="MsoNormal">
+            <span lang="EN-GB" style='mso-bidi-font-family: Arial'>
+                <o:p>&nbsp;</o:p>
+            </span>
+        </p>
+        <p class="Style1">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial;
+                font-weight: normal; mso-bidi-font-weight: bold'><span style='mso-list: Ignore'>1.<span
+                    style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Definitions and Interpretation
+            </span>
+        </p>
+        <p class="Style2n">
+            <span lang="EN-GB">In this Agreement the following terms shall have the following meanings:<span
+                style='mso-spacerun: yes'> </span></span>
+        </p>
+        <p class="MsoNormal">
+            <span lang="EN-GB">
+                <o:p>&nbsp;</o:p>
+            </span>
+        </p>
+        <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" style='margin-left: 40.85pt;
+            border-collapse: collapse; mso-padding-alt: 1.4pt 1.4pt 7.1pt 1.4pt'>
+            <tr style='mso-yfti-irow: 0; mso-yfti-firstrow: yes; page-break-inside: avoid'>
+                <td width="179" valign="top" style='width: 134.05pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" align="left" style='margin-left: 7.1pt; text-align: left; text-indent: -7.1pt;
+                        mso-pagination: widow-orphan; mso-layout-grid-align: auto; punctuation-wrap: hanging;
+                        text-autospace: ideograph-numeric ideograph-other; mso-vertical-align-alt: auto'>
+                        <b><span lang="EN-GB" style='mso-bidi-font-family: Arial'>“Account”<o:p></o:p></span></b></p>
+                </td>
+                <td width="375" valign="top" style='width: 281.5pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" style='mso-pagination: widow-orphan; mso-layout-grid-align: auto;
+                        punctuation-wrap: hanging; text-autospace: ideograph-numeric ideograph-other;
+                        mso-vertical-align-alt: auto'>
+                        <span lang="EN-GB" style='mso-bidi-font-size: 11.0pt; mso-bidi-font-family: Arial'>means
+                            collectively the personal/identifying information <span style='mso-spacerun: yes'>
+                            </span>and credentials used by Users to access parts of the Website and to create
+                            Ads;<o:p></o:p></span></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow: 1; page-break-inside: avoid'>
+                <td width="179" valign="top" style='width: 134.05pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" align="left" style='margin-left: 7.1pt; text-align: left; text-indent: -7.1pt;
+                        mso-pagination: widow-orphan; mso-layout-grid-align: auto; punctuation-wrap: hanging;
+                        text-autospace: ideograph-numeric ideograph-other; mso-vertical-align-alt: auto'>
+                        <b><span lang="EN-GB" style='mso-bidi-font-family: Arial'>“Ad”<o:p></o:p></span></b></p>
+                </td>
+                <td width="375" valign="top" style='width: 281.5pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" style='mso-pagination: widow-orphan; mso-layout-grid-align: auto;
+                        punctuation-wrap: hanging; text-autospace: ideograph-numeric ideograph-other;
+                        mso-vertical-align-alt: auto'>
+                        <span lang="EN-GB" style='mso-bidi-font-size: 11.0pt; mso-bidi-font-family: Arial'>means
+                            an advertisement posted on the Website by an Advertiser which shall provide details
+                            of the item or service offered by the Advertiser;<o:p></o:p></span></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow: 2; page-break-inside: avoid'>
+                <td width="179" valign="top" style='width: 134.05pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" align="left" style='margin-left: 7.1pt; text-align: left; text-indent: -7.1pt;
+                        mso-pagination: widow-orphan; mso-layout-grid-align: auto; punctuation-wrap: hanging;
+                        text-autospace: ideograph-numeric ideograph-other; mso-vertical-align-alt: auto'>
+                        <b><span lang="EN-GB" style='mso-bidi-font-family: Arial'>“Advertiser”<o:p></o:p></span></b></p>
+                </td>
+                <td width="375" valign="top" style='width: 281.5pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" style='mso-pagination: widow-orphan; mso-layout-grid-align: auto;
+                        punctuation-wrap: hanging; text-autospace: ideograph-numeric ideograph-other;
+                        mso-vertical-align-alt: auto'>
+                        <span lang="EN-GB" style='mso-bidi-font-size: 11.0pt; mso-bidi-font-family: Arial'>means
+                            a User that wishes to or has placed an Ad on the Website;<o:p></o:p></span></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow: 3; page-break-inside: avoid'>
+                <td width="179" valign="top" style='width: 134.05pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" align="left" style='margin-left: 7.1pt; text-align: left; text-indent: -7.1pt;
+                        mso-pagination: widow-orphan; mso-layout-grid-align: auto; punctuation-wrap: hanging;
+                        text-autospace: ideograph-numeric ideograph-other; mso-vertical-align-alt: auto'>
+                        <b><span lang="EN-GB" style='mso-bidi-font-family: Arial'>“</span></b><b style='mso-bidi-font-weight: normal'><span
+                            lang="EN-GB" style='mso-bidi-font-size: 11.0pt; mso-bidi-font-family: Arial'>Content</span></b><b><span
+                                lang="EN-GB" style='mso-bidi-font-family: Arial'>”<o:p></o:p></span></b></p>
+                </td>
+                <td width="375" valign="top" style='width: 281.5pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" style='mso-pagination: widow-orphan; mso-layout-grid-align: auto;
+                        punctuation-wrap: hanging; text-autospace: ideograph-numeric ideograph-other;
+                        mso-vertical-align-alt: auto'>
+                        <span lang="EN-GB" style='mso-bidi-font-size: 11.0pt; mso-bidi-font-family: Arial'>means
+                            any text, graphics, images, audio, video, software, data compilations and any other
+                            form of information capable of being stored in a computer that appears on or forms
+                            part of this Website;</span><span lang="EN-GB" style='mso-bidi-font-family: Arial'><o:p></o:p></span></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow: 4; page-break-inside: avoid'>
+                <td width="179" valign="top" style='width: 134.05pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" align="left" style='margin-left: 7.1pt; text-align: left; text-indent: -7.1pt;
+                        mso-pagination: widow-orphan; mso-layout-grid-align: auto; punctuation-wrap: hanging;
+                        text-autospace: ideograph-numeric ideograph-other; mso-vertical-align-alt: auto'>
+                        <b><span lang="EN-GB" style='mso-bidi-font-family: Arial'>“</span></b><b style='mso-bidi-font-weight: normal'><span
+                            lang="EN-GB">Tamil shout</span></b><b><span lang="EN-GB" style='mso-bidi-font-family: Arial'>”<o:p></o:p></span></b></p>
+                </td>
+                <td width="375" valign="top" style='width: 281.5pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" style='mso-pagination: widow-orphan; mso-layout-grid-align: auto;
+                        punctuation-wrap: hanging; text-autospace: ideograph-numeric ideograph-other;
+                        mso-vertical-align-alt: auto'>
+                        <span lang="EN-GB" style='mso-bidi-font-size: 11.0pt; mso-bidi-font-family: Arial'>means<a
+                            name="Text1"> </a></span><span lang="EN-GB">Tamil shout</span><span lang="EN-GB"
+                                style='mso-bidi-font-size: 11.0pt; mso-bidi-font-family: Arial'>;</span><span lang="EN-GB"
+                                    style='mso-bidi-font-family: Arial'><o:p></o:p></span></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow: 5; page-break-inside: avoid'>
+                <td width="179" valign="top" style='width: 134.05pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" align="left" style='margin-left: 7.1pt; text-align: left; text-indent: -7.1pt;
+                        mso-pagination: widow-orphan; mso-layout-grid-align: auto; punctuation-wrap: hanging;
+                        text-autospace: ideograph-numeric ideograph-other; mso-vertical-align-alt: auto'>
+                        <b><span lang="EN-GB" style='mso-bidi-font-family: Arial'>“</span></b><b style='mso-bidi-font-weight: normal'><span
+                            lang="EN-GB" style='mso-bidi-font-size: 11.0pt; mso-bidi-font-family: Arial'>Service</span></b><b><span
+                                lang="EN-GB" style='mso-bidi-font-family: Arial'>”<o:p></o:p></span></b></p>
+                </td>
+                <td width="375" valign="top" style='width: 281.5pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" style='mso-pagination: widow-orphan; mso-layout-grid-align: auto;
+                        punctuation-wrap: hanging; text-autospace: ideograph-numeric ideograph-other;
+                        mso-vertical-align-alt: auto'>
+                        <span lang="EN-GB" style='mso-bidi-font-size: 11.0pt; mso-bidi-font-family: Arial'>means
+                            collectively any online facilities, tools, services or information that </span>
+                        <span lang="EN-GB">Tamil shout</span><span lang="EN-GB" style='mso-bidi-font-size: 11.0pt;
+                            mso-bidi-font-family: Arial'> makes available through the Website either now or
+                            in the future;</span><span lang="EN-GB" style='mso-bidi-font-family: Arial'><o:p></o:p></span></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow: 6; page-break-inside: avoid'>
+                <td width="179" valign="top" style='width: 134.05pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" align="left" style='margin-left: 7.1pt; text-align: left; text-indent: -7.1pt;
+                        mso-pagination: widow-orphan; mso-layout-grid-align: auto; punctuation-wrap: hanging;
+                        text-autospace: ideograph-numeric ideograph-other; mso-vertical-align-alt: auto'>
+                        <b><span lang="EN-GB" style='mso-bidi-font-family: Arial'>“</span></b><b style='mso-bidi-font-weight: normal'><span
+                            lang="EN-GB" style='mso-bidi-font-size: 11.0pt; mso-bidi-font-family: Arial'>System</span></b><b><span
+                                lang="EN-GB" style='mso-bidi-font-family: Arial'>”<o:p></o:p></span></b></p>
+                </td>
+                <td width="375" valign="top" style='width: 281.5pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" align="left" style='text-align: left; mso-pagination: widow-orphan;
+                        mso-layout-grid-align: auto; punctuation-wrap: hanging; text-autospace: ideograph-numeric ideograph-other;
+                        mso-vertical-align-alt: auto'>
+                        <span lang="EN-GB" style='mso-bidi-font-size: 11.0pt; mso-bidi-font-family: Arial'>means
+                            any online communications infrastructure that </span><span lang="EN-GB">Tamil shout</span><span
+                                lang="EN-GB" style='mso-bidi-font-size: 11.0pt; mso-bidi-font-family: Arial'> makes
+                                available through the Website either now or in the future.<span style='mso-spacerun: yes'>
+                                </span>This includes, but is not limited to, Ads, email addresses and online forms;</span><span
+                                    lang="EN-GB" style='mso-bidi-font-family: Arial'><o:p></o:p></span></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow: 7; page-break-inside: avoid'>
+                <td width="179" valign="top" style='width: 134.05pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" align="left" style='margin-left: 7.1pt; text-align: left; text-indent: -7.1pt;
+                        mso-pagination: widow-orphan; mso-layout-grid-align: auto; punctuation-wrap: hanging;
+                        text-autospace: ideograph-numeric ideograph-other; mso-vertical-align-alt: auto'>
+                        <b style='mso-bidi-font-weight: normal'><span lang="EN-GB" style='mso-bidi-font-size: 11.0pt;
+                            mso-bidi-font-family: Arial'>“User” / “Users”</span></b><b><span lang="EN-GB" style='mso-bidi-font-family: Arial'><o:p></o:p></span></b></p>
+                </td>
+                <td width="375" valign="top" style='width: 281.5pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" align="left" style='text-align: left; mso-pagination: widow-orphan;
+                        mso-layout-grid-align: auto; punctuation-wrap: hanging; text-autospace: ideograph-numeric ideograph-other;
+                        mso-vertical-align-alt: auto'>
+                        <span lang="EN-GB" style='mso-bidi-font-size: 11.0pt; mso-bidi-font-family: Arial'>means
+                            any third party that accesses the Website and is not employed by </span><span lang="EN-GB">
+                                Tamil shout</span><span lang="EN-GB" style='mso-bidi-font-size: 11.0pt; mso-bidi-font-family: Arial'>
+                                    and acting in the course of their employment; and<o:p></o:p></span></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow: 8; mso-yfti-lastrow: yes; page-break-inside: avoid'>
+                <td width="179" valign="top" style='width: 134.05pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" align="left" style='margin-left: 7.1pt; text-align: left; text-indent: -7.1pt;
+                        mso-pagination: widow-orphan; mso-layout-grid-align: auto; punctuation-wrap: hanging;
+                        text-autospace: ideograph-numeric ideograph-other; mso-vertical-align-alt: auto'>
+                        <b style='mso-bidi-font-weight: normal'><span lang="EN-GB" style='mso-bidi-font-size: 11.0pt;
+                            mso-bidi-font-family: Arial'>“Website”</span></b><b><span lang="EN-GB" style='mso-bidi-font-family: Arial'><o:p></o:p></span></b></p>
+                </td>
+                <td width="375" valign="top" style='width: 281.5pt; padding: 1.4pt 1.4pt 7.1pt 1.4pt'>
+                    <p class="MsoNormal" align="left" style='text-align: left; mso-pagination: widow-orphan;
+                        mso-layout-grid-align: auto; punctuation-wrap: hanging; text-autospace: ideograph-numeric ideograph-other;
+                        mso-vertical-align-alt: auto'>
+                        <span lang="EN-GB" style='mso-bidi-font-size: 11.0pt; mso-bidi-font-family: Arial'>means
+                            the website that you are currently using (www.tamilshout.com) and any sub-domains
+                            of this site (e.g. subdomain. www.tamilshout.co.uk) unless expressly excluded by
+                            their own terms and conditions.<o:p></o:p></span></p>
+                </td>
+            </tr>
+        </table>
+        <p class="MsoNormal">
+            <span lang="EN-GB" style='mso-bidi-font-family: Arial'>
+                <o:p>&nbsp;</o:p>
+            </span>
+        </p>
+        <p class="Style1">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial;
+                font-weight: normal; mso-bidi-font-weight: bold'><span style='mso-list: Ignore'>2.<span
+                    style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Intellectual Property</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>2.1<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Subject to the exceptions in Clause
+                    3 of these Terms and Conditions, all Content included on the Website, unless contained
+                    in Ads, including, but not limited to, text, graphics, logos, icons, images, sound
+                    clips, video clips, data compilations, page layout, underlying code and software
+                    is the property of, or Tamil shout our affiliates.<span style='mso-spacerun: yes'>
+                    </span>By continuing to use the Website you acknowledge that such material is protected
+                    by applicable United Kingdom and International intellectual property and other laws.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>2.2<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">You may print, reproduce, copy, distribute,
+                    store or in any other fashion re-use Content from the Website as specified in Clause
+                    4 of these Terms and Conditions and for personal or educational purposes only unless
+                    otherwise indicated on the Website or unless given express written permission to
+                    do so by Tamil shout.<span style='mso-spacerun: yes'> </span>Specifically you agree
+                    that:</span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>2.2.1<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">You will not systematically copy Content
+                    from the Website with a view to creating or compiling any form of comprehensive
+                    collection, compilation, directory or database unless given express written permission
+                    to do so by Tamil shout;</span></p>
+        <p class="Style1">
+            <![if !supportLists]><strong><span lang="EN-GB" style='mso-fareast-font-family: Arial;
+                mso-bidi-font-family: Arial; font-weight: normal; mso-bidi-font-weight: bold'><span
+                    style='mso-list: Ignore'>3.<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span></strong><![endif]><strong><span lang="EN-GB">Third Party Intellectual
+                        Property<o:p></o:p></span></strong></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>3.1<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">The Intellectual Property Rights subsisting
+                    in the Content of Ads belong to the Advertisers who placed those Ads unless it is
+                    expressly stated otherwise.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>3.2<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Where expressly indicated, certain
+                    Content and the Intellectual Property Rights subsisting therein belongs to other
+                    parties.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>3.3<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">The Content described in this Clause
+                    3, unless expressly stated to be so, is not covered by any permission granted by
+                    Clause 2 of these Terms and Conditions to use Content from the Website.<span style='mso-spacerun: yes'>
+                    </span>The exceptions in Clause 4 continue to apply.</span></p>
+        <p class="Style1">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial;
+                font-weight: normal; mso-bidi-font-weight: bold'><span style='mso-list: Ignore'>4.<span
+                    style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Fair Use of Intellectual Property</span></p>
+        <p class="Style2n">
+            <span lang="EN-GB">Material from the Website may be re-used without written permission
+                where any of the exceptions detailed in Chapter III of the Copyright Designs and
+                Patents Act 1988 apply.</span></p>
+        <p class="Style1">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial;
+                font-weight: normal; mso-bidi-font-weight: bold'><span style='mso-list: Ignore'>5.<span
+                    style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Links to Other Websites</span></p>
+        <p class="Style2n">
+            <span lang="EN-GB">This Website may contain links to other websites.<span style='mso-spacerun: yes'>
+            </span>Unless expressly stated, these sites are not under the control of Tamil shout
+                or that of our affiliates.<span style='mso-spacerun: yes'> </span>We assume no responsibility
+                for the content of such Websites and disclaim liability for any and all forms of
+                loss or damage arising out of the use of them.<span style='mso-spacerun: yes'> </span>
+                The inclusion of a link to another site on this Website does not imply any endorsement
+                of the sites themselves or of those in control of them.</span></p>
+        <p class="Style1">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial;
+                font-weight: normal; mso-bidi-font-weight: bold'><span style='mso-list: Ignore'>6.<span
+                    style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Links to this Website</span></p>
+        <p class="Style2n">
+            <span lang="EN-GB">Those wishing to place a link to this Website on other sites may
+                do so only to the home page of the site www.tamilshout.com without prior permission.<span
+                    style='mso-spacerun: yes'> </span>Deep linking (i.e. links to specific pages
+                within the site) requires the express permission of Tamil shout.<span style='mso-spacerun: yes'>
+                </span>To find out more please contact us by email at info@tamilshout.com or by
+                phone.</span></p>
+        <p class="Style1">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial;
+                font-weight: normal; mso-bidi-font-weight: bold'><span style='mso-list: Ignore'>7.<span
+                    style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Advertising on the Website</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">When submitting an Ad to the Website
+                    you should do so in accordance with the following rules:</span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.1<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">you must not use obscene or vulgar
+                    language;</span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.2<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">your Ad may not contain Content that
+                    is unlawful or otherwise objectionable (including that which may be in breach of
+                    rules, regulations or legislation specific to the item or service you are advertising).<span
+                        style='mso-spacerun: yes'> </span>This includes, but is not limited to, Content
+                    that is abusive, threatening, harassing, defamatory, ageist, sexist or racist;</span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.3<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">your Ad may not contain Content that
+                    is intended to promote or incite violence;</span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.4<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">your Ad should be honest and fair,
+                    should not make any unsubstantiated or unsupportable claims, and should not make
+                    dishonest or unreasonable comparisons with other Advertisers;</span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.5<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Ads must be made using the English
+                    language(s).<span style='mso-spacerun: yes'> </span>Content in any other language
+                    may be removed at our sole discretion;</span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.6<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">your Ad may not infringe the intellectual
+                    property rights of any third party including, but not limited to, copyright and
+                    trade marks;</span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.7<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><b><span lang="EN-GB">[</span></b><span lang="EN-GB">items
+                    or services of the following types may not be advertised:</span></p>
+        <p class="Style4">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.7.1<span style='font: 7.0pt "Times New Roman"'> </span>
+            </span></span><![endif]><span lang="EN-GB">Adult related</span></p>
+        <p class="Style4">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.7.2<span style='font: 7.0pt "Times New Roman"'> </span>
+            </span></span><![endif]><span lang="EN-GB">Gambling</span></p>
+        <p class="Style4">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.7.3<span style='font: 7.0pt "Times New Roman"'> </span>
+            </span></span><![endif]><span lang="EN-GB">Other illegal products…<b style='mso-bidi-font-weight: normal'>]</b></span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.8<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">you must not post links to other Websites
+                    containing any of the above types of Content;</span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.9<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">the means by which you identify yourself
+                    must not violate these Terms and Conditions or any applicable laws;</span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.10<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">your Ad must be placed into the appropriate
+                    category;</span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.11<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">you must not impersonate other people
+                    or businesses;</span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.12<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">you must not submit material that
+                    may contain viruses or any other software or instructions that may damage or disrupt
+                    other software, computer hardware or communications networks; and</span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>7.1.13<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">you must not use our System for unauthorised
+                    mass-communication such as “spam” or “junk mail”.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>7.2<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><b style='mso-bidi-font-weight: normal'><span lang="EN-GB">[</span></b><span
+                    lang="EN-GB">You acknowledge that Tamil shout shall screen, approve (or reject),
+                    edit and/or remove any Ad submitted to the Website.<b style='mso-bidi-font-weight: normal'>]<br>
+                        <br>
+                        OR<br>
+                        <br>
+                        [</b>Tamil shout does not screen or pre-approve any Ad submitted to the website,
+                    however on notification from Users we may examine Ads and such Ads may be edited
+                    and/or removed from the Website.<b style='mso-bidi-font-weight: normal'>]</b></span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>7.3<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Tamil shout may edit your Ad to comply
+                    with the provisions of sub-Clause 7.1 without prior consultation.<span style='mso-spacerun: yes'>
+                    </span>In cases of severe breaches of the provisions of sub-Clause 7.1, your Ad
+                    may be removed and your Account may be suspended or terminated.<span style='mso-spacerun: yes'>
+                    </span>You will <b style='mso-bidi-font-weight: normal'>[</b>not<b style='mso-bidi-font-weight: normal'>]</b>
+                    be informed in writing of the reasons for any such alterations or removals.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>7.4<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">In order to post an Ad,<span style='color: blue'>
+                </span>you are required to submit certain personal details and/or business details.<span
+                    style='mso-spacerun: yes'> </span>By<span style='color: blue'> </span>continuing
+                    to use this Website you represent and warrant that:</span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>7.4.1<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">any information you submit is accurate
+                    and truthful; and</span></p>
+        <p class="Style311">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial'><span
+                style='mso-list: Ignore'>7.4.2<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">you will keep this information accurate
+                    and up-to-date.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>7.5<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">By posting an Ad you warrant and represent
+                    that you are the author of that Ad or that you have acquired all of the appropriate
+                    rights and / or permissions to submit it. Tamil shout accepts no responsibility
+                    or liability for any infringement of third party rights by such Ads or Content.
+                    <b style='mso-bidi-font-weight: normal'>[</b>Further, you waive all moral rights
+                    in the Ad to be named as its author and grant Tamil shout a perpetual licence to
+                    modify the Content as necessary for its inclusion on the Website.<b style='mso-bidi-font-weight: normal'>]</b></span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>7.6<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Tamil shout will not be liable in
+                    any way or under any circumstances for any loss or damage that you may incur as
+                    a result of such Ads, nor for any errors or omissions in Ads.<span style='mso-spacerun: yes'>
+                    </span>Use of and reliance upon Ads is entirely at your own risk.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>7.7<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Nothing in these Terms and Conditions
+                    shall grant Tamil shout any rights in or to any trade marks or any other intellectual
+                    property rights contained within your Ad or any part of it save for the right to
+                    display the same on the Website as part of your Ad until you or Tamil shout choose
+                    to remove that Ad.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>7.8<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">You acknowledge that Tamil shout may
+                    retain copies of any and all communications, information, Content and Ads sent to
+                    us or submitted to the Website.</span></p>
+        <p class="Style1">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial;
+                font-weight: normal; mso-bidi-font-weight: bold'><span style='mso-list: Ignore'>8.<span
+                    style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Termination and/or Suspension</span></p>
+        <p class="Style2n">
+            <span lang="EN-GB">In the event that any of the provisions of sub-Clause 7.1, above,
+                are not followed, Tamil shout reserves the right to suspend or terminate your access
+                to the Service.<span style='mso-spacerun: yes'> </span>Any Users banned in this
+                way must not attempt to use the Website under any other name or by using the access
+                credentials of another User, with or without the permission of that User.</span></p>
+        <p class="Style1">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial;
+                font-weight: normal; mso-bidi-font-weight: bold'><span style='mso-list: Ignore'>9.<span
+                    style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Disclaimers</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>9.1<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Tamil shout makes no warranty or representation
+                    that the Website will meet your requirements, that it will be of satisfactory quality,
+                    that it will be fit for a particular purpose, that it will not infringe the rights
+                    of third parties, that it will be compatible with all systems, or that it will be
+                    secure.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>9.2<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Save for the screening and approval
+                    of Ads, Tamil shout has neither control over, nor involvement in, any items or services
+                    advertised on the Website and accepts no responsibility for any actions taken, or
+                    any items or services provided, by any Advertisers.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>9.3<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Whilst every reasonable endeavour
+                    has been made to ensure that all information provided on this Website will be accurate
+                    and up to date, Tamil shout makes no warranty or representation that this is the
+                    case.<span style='mso-spacerun: yes'> </span>We make no guarantee of any specific
+                    results from the use of our services.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>9.4<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">No part of this Website is intended
+                    to constitute advice and the Content of this Website should not be relied upon when
+                    making any decisions or taking any action of any kind.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>9.5<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Tamil shout makes no representation
+                    or warranty that any part of this Website is suitable for use in commercial situations
+                    or that it constitutes accurate data and / or advice on which business decisions
+                    can be based.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>9.6<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Whilst every effort has been made
+                    to ensure that all descriptions of services available from Tamil shout correspond
+                    to the actual services available, Tamil shout is not responsible for any variations
+                    from these descriptions.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>9.7<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Whilst Tamil shout uses reasonable
+                    endeavours to ensure that the Website is secure and free of errors, viruses and
+                    other malware, all Users are advised to take responsibility for their own security,
+                    that of their personal details and their computers.</span></p>
+        <p class="Style1">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial;
+                font-weight: normal; mso-bidi-font-weight: bold'><span style='mso-list: Ignore'>10.<span
+                    style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Availability of the Website and Modifications</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>10.1<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">The Service is provided “as is” and
+                    on an “as available” basis.<span style='mso-spacerun: yes'> </span>We give no warranty
+                    that the Service will be free of defects and / or faults.<span style='mso-spacerun: yes'>
+                    </span>To the maximum extent permitted by the law we provide no warranties (express
+                    or implied) of fitness for a particular purpose, accuracy of information, compati<a
+                        name="Text12">bility and satisfactory quality.</a></span></p>
+        <span style='mso-bookmark: Text12'></span>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>10.2<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Tamil shout accepts no liability for
+                    any disruption or non-availability of the Website resulting from external causes
+                    including, but not limited to, ISP equipment failure, host equipment failure, communications
+                    network failure, power failure, natural events, acts of war or legal restrictions
+                    and censorship.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>10.3<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Tamil shout reserves the right to
+                    alter, suspend or discontinue any part (or the whole of) the Website including,
+                    but not limited to, the products and/or services available.<span style='mso-spacerun: yes'>
+                    </span>These Terms and Conditions shall continue to apply to any modified version
+                    of the Website unless it is expressly stated otherwise.</span></p>
+        <p class="Style1">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial;
+                font-weight: normal; mso-bidi-font-weight: bold'><span style='mso-list: Ignore'>11.<span
+                    style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Limitation of Liability</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>11.1<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">To the maximum extent permitted by
+                    law, Tamil shout accepts no liability for any direct or indirect loss or damage,
+                    foreseeable or otherwise, including any indirect, consequential, special or exemplary
+                    damages arising from the use of the Website or any information contained therein.
+                    Users should be aware that they use the Website and its Content at their own risk.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>11.2<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Nothing in these terms and conditions
+                    excludes or restricts Tamil shout’s liability for death or personal injury resulting
+                    from any negligence or fraud on the part of Tamil shout.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>11.3<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Whilst every effort has been made
+                    to ensure that these terms and conditions adhere strictly with the relevant provisions
+                    of the Unfair Contract Terms Act 1977, in the event that any of these terms are
+                    found to be unlawful, invalid or otherwise unenforceable, that term is to be deemed
+                    severed from these terms and conditions and shall not affect the validity and enforceability
+                    of the remaining terms and conditions.<span style='mso-spacerun: yes'> </span>This
+                    term shall apply only within jurisdictions where a particular term is illegal.</span></p>
+        <p class="Style1">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial;
+                font-weight: normal; mso-bidi-font-weight: bold'><span style='mso-list: Ignore'>12.<span
+                    style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">No Waiver</span></p>
+        <p class="Style2n">
+            <span lang="EN-GB">In the event that any party to these Terms and Conditions fails to
+                exercise any right or remedy contained herein, this shall not be construed as a
+                waiver of that right or remedy.</span></p>
+        <p class="Style1">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial;
+                font-weight: normal; mso-bidi-font-weight: bold'><span style='mso-list: Ignore'>13.<span
+                    style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Previous Terms and Conditions</span></p>
+        <p class="Style2n">
+            <span lang="EN-GB">In the event of any conflict between these Terms and Conditions and
+                any prior versions thereof, the provisions of these Terms and Conditions shall prevail
+                unless it is expressly stated otherwise.</span></p>
+        <p class="Style1">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial;
+                font-weight: normal; mso-bidi-font-weight: bold'><span style='mso-list: Ignore'>14.<span
+                    style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Third Party Rights</span></p>
+        <p class="Style2n">
+            <span lang="EN-GB">Nothing in these Terms and Conditions shall confer any rights upon
+                any third party.<span style='mso-spacerun: yes'> </span>The agreement created by
+                these Terms and Conditions is between you and Tamil shout.</span></p>
+        <p class="Style1">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial;
+                font-weight: normal; mso-bidi-font-weight: bold'><span style='mso-list: Ignore'>15.<span
+                    style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Communications</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>15.1<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">All notices / communications shall
+                    be given to us either by post to our Premises (see address above) or by email to
+                    info@tamilshout.com.<span style='mso-spacerun: yes'> </span>Such notice will be
+                    deemed received 3 days after posting if sent by first class post, the day of sending
+                    if the email is received in full on a business day and on the next business day
+                    if the email is sent on a weekend or public holiday.</span></p>
+        <p class="Style2">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial'><span
+                style='mso-list: Ignore'>15.2<span style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Tamil shout may from time to time
+                    send you information about our products and/or services.</span></p>
+        <p class="Style1">
+            <![if !supportLists]><span lang="EN-GB" style='mso-fareast-font-family: Arial; mso-bidi-font-family: Arial;
+                font-weight: normal; mso-bidi-font-weight: bold'><span style='mso-list: Ignore'>16.<span
+                    style='font: 7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span><![endif]><span lang="EN-GB">Law and Jurisdiction</span></p>
+        <p class="Style2n">
+            <span lang="EN-GB">These terms and conditions and the relationship between you and Tamil
+                shout shall be governed by and construed in accordance with the Law of England and
+                Wales and Tamil shout and you agree to submit to the exclusive jurisdiction of the
+                Courts of England and Wales.</span></p>
+    </div>
+</body>
+</html>

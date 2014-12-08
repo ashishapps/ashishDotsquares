@@ -1,0 +1,240 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.tamilshout.MainActivity" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo_adtamil" />
+
+   <!--  <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray" /> -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/search_box"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="4dp" >
+
+                <EditText
+                    android:id="@+id/edt_search"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:hint="@string/search_business"
+                    android:imeOptions="actionSearch"
+                    android:singleLine="true" >
+                </EditText>
+
+                <Button
+                    android:id="@+id/searchBusinessBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@drawable/icon_search" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/search_box"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="4dp" >
+
+                <EditText
+                    android:id="@+id/edt_select_country"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:focusable="false"
+                    android:hint="@string/search_country" />
+
+                <Button
+                    android:id="@+id/selectCatBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@drawable/icon_select" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                 <WebView
+                    android:id="@+id/addevertiseImageView"
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:id="@+id/logoutLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_gray"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/welcomeTxt"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/welcome_text"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btn_logout"
+                    style="@style/btn_style"
+                    android:layout_width="100dp"
+                    android:background="@drawable/simple_bg"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="@string/logout_btn"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/signinLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_gray"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signin_text"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btn_signin"
+                    style="@style/btn_style"
+                    android:layout_width="100dp"
+                    android:background="@drawable/simple_bg"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="@string/signin_btn"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/registerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_gray"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp" >
+
+                <TextView
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:text="@string/register_text"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btn_register"
+                    style="@style/btn_style"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/simple_bg"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="@string/register_btn"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" >
+                </Button>
+            </LinearLayout>
+
+          
+
+            <Button
+                android:id="@+id/directoryBtn"
+                style="@style/btn_style"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/directoryselector_home" >
+            </Button>
+
+            <Button
+                android:id="@+id/eventBtn"
+                style="@style/btn_style"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/eventsselector_home" >
+            </Button>
+
+            <Button
+                android:id="@+id/dealBtn"
+                style="@style/btn_style"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/dealsselcetor_home" >
+            </Button>
+
+            <Button
+                android:id="@+id/itemForSaleBtn"
+                style="@style/btn_style"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/itemforsaleselector_home" >
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

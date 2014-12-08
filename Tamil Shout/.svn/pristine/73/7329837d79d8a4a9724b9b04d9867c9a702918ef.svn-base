@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="light_gray">#CCCCCC</color>
+    <color name="dull_white">#F0F0F0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="botton_text">#2992FF</color>
+    <color name="top_header">#2f94FE</color>
+    <color name="btn_color">#2f94FE</color>
+    <color name="transparent">#00000000</color>
+    <color name="list_selector">#017EFF</color>
+        <color name="blue_text">#2f78c5</color>
+     <color name="blue">#2ABBF6</color>
+
+</resources>
